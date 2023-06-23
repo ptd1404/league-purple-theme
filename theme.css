@@ -48,14 +48,14 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     width: 1280px;
     height: 720px;
     position: relative;
-    border-right: 2px solid #9100ff!important;
-    border-left: 2px solid #9100ff!important;
-    border-bottom: 2px solid #9100ff!important;
-    border-top: 2px solid #9100ff!important;
+    border-right: 2px solid #00ffe5!important;
+    border-left: 2px solid #00ffe5!important;
+    border-bottom: 2px solid #00ffe5!important;
+    border-top: 2px solid #00ffe5!important;
     box-sizing: border-box;
     overflow: hidden;
     background: #000;
-    filter: drop-shadow(1px 1px 10px #9100ff) !important; 
+    filter: drop-shadow(1px 1px 10px #00ffe5) !important; 
 }
 
 #rcp-fe-viewport-root #rcp-fe-lol-navigation-app {
@@ -76,7 +76,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     cursor: default;
     -webkit-user-drag: none;
     -webkit-user-select: none;
-    background: linear-gradient(#3f2375, #c100d81a 18%)!important;
+    background: linear-gradient(#237567, #c100d81a 18%)!important;
 }
 
 .section, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section {
@@ -103,12 +103,12 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
     left: 0;
     top: 20px;
     margin: 0;
-    background: linear-gradient(to left, transparent, #9e6dff, transparent)!important;
+    background: linear-gradient(to left, transparent, #6dffee, transparent)!important;
 }
 
 .section.active, :host-context(lol-uikit-navigation-bar[type=nav-bar-secondary]) .section.active {
-    color: #846bff;
-    text-shadow: 0px 0px 21px #8500ff!important;
+    color: #6bffff;
+    text-shadow: 0px 0px 21px #00e5ff!important;
     /* opacity: 1; */
 }
 
@@ -148,7 +148,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 }
 
 lol-uikit-full-page-backdrop {
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(39, 0, 74, 0.8) 93%)!important;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(164, 239, 187,0.6) 93%)!important;
     position: absolute;
     left: 0;
     right: 0;
@@ -190,9 +190,9 @@ lol-uikit-full-page-backdrop {
 }
 
 .availability-icon{
-    background-color: #6523CF !important;
-    border-color: #7D5FFF !important;
-    filter: drop-shadow(0px 0px 4px #7C2BFF);
+    background-color: #23CFBE !important;
+    border-color: #5FFFF2 !important;
+    filter: drop-shadow(0px 0px 4px #2BFFD8);
     border-radius: 10px;
 }
 
@@ -201,30 +201,30 @@ lol-uikit-full-page-backdrop {
 }
 
 .availability-icon.away{
-    background-color: #321167 !important;
-    border-color: #5C20BD !important;
+    background-color: #116367 !important;
+    border-color: #20B8BD !important;
 }
 
 .status-message.offline{
-  color: #3D157D !important;
+  color: #157D6D !important;
 }
 
 .status-message-wrapper{
-  color: #AB4AFF !important;
+  color: #4AFFF3 !important;
 }
 
 .status-message.chat{
-  color: #AB4AFF !important;
+  color: #4AFFF3 !important;
 }
 
 .status-message.game-status.chat{
-  color: #873AC9 !important;
+  color: #3ABFC9 !important;
 }
 
 
 
 .lol-loading-screen-lol-icon{
-  background-image: url('https://i.ibb.co/W63sfkx/fomlahault.png') !important;
+  background-image: url('https://i.ibb.co/jW5ZfZM/png-clipart-chibi-league-of-legends-youtube-drawing-chibi-video-game-fictional-character-thumbnail.png') !important;
   width: 300px !important;
   height: 300px !important;
 }
@@ -234,17 +234,17 @@ lol-uikit-full-page-backdrop {
 }
 
 .play-button-container{
-  background-image: none !important; /*url('http://mmmx22.ct8.pl/play-button-violet.png') !important;*/
-  background: linear-gradient(-90deg, #382B7A, #241666) !important;
+  background-image: none !important; /*url('https://i.ibb.co/myYc5PW/1177938.png') !important;*/
+  background: linear-gradient(-90deg, #2B7A72, #166661) !important;
   border-radius: 50px !important;
-  border: 2px solid #9100FF!important;
-  filter: drop-shadow(1px 1px 8px #9100FF) !important;
+  border: 2px solid #00FFD5!important;
+  filter: drop-shadow(1px 1px 8px #00FFD5) !important;
   transition: 0.2s !important;
   cursor: pointer;
 }
 
 .play-button-container:hover{
-  filter: drop-shadow(1px 1px 15px #9100FF) !important;
+  filter: drop-shadow(1px 1px 15px #00FFD5) !important;
   transition: 0.2s !important;
 }
 
@@ -318,8 +318,8 @@ lol-uikit-full-page-backdrop {
 }
 
 .lol-loading-screen-container.lol-loading-screen-default-state{
-  /* background: url('https://i.ibb.co/QcgNzKT/7f7ce09a2a883002643f442a7e7ddfaf.jpg') #0F051F no-repeat !important; */
-  background: #0F051F !important;
+  /* background: url('https://i.ibb.co/jvX234v/anh-nen-powerpoint-mau-xanh-ngoc-100600105.jpg') #0F051F no-repeat !important; */
+  background: #051F1F !important;
   /* opacity: 0.6 !important;  */
 }
 
@@ -328,42 +328,42 @@ lol-uikit-full-page-backdrop {
 }
 
 lol-social-roster-member .open-party .open-party-indicator{
-  background: #AB4AFF !important;
+  background: #4AFFF0 !important;
 }
 
 lol-social-roster-member .open-party-indicator{
-  background: #4E2275 !important;
+  background: #227567 !important;
 }
 
 .status-message.open-party.chat{
-  color: #AB4AFF !important;
+  color: #4AFFF0 !important;
 }
 
 .filled.xp-ring{
-  background-color: #AB4AFF !important;
+  background-color: #4AFFF0 !important;
 }
 
 lol-social-status .status-message.dnd{
-  color: #BE70FF !important;
+  color: #70EAFF !important;
   font-weight: bold !important;
   text-transform: uppercase;
 }
 
 :host .lol-uikit-background-switcher-image{
-  content: url(https://i.ibb.co/QcgNzKT/7f7ce09a2a883002643f442a7e7ddfaf.jpg) !important;
+  content: url(https://i.ibb.co/jvX234v/anh-nen-powerpoint-mau-xanh-ngoc-100600105.jpg) !important;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   filter:blur(10px);
   width: auto !important;
 }
 
 .parties-view .parties-background lol-uikit-background-switcher{
-  content: url(https://i.ibb.co/QcgNzKT/7f7ce09a2a883002643f442a7e7ddfaf.jpg) !important;
+  content: url(https://i.ibb.co/jvX234v/anh-nen-powerpoint-mau-xanh-ngoc-100600105.jpg) !important;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   filter:blur(10px);
   width: auto !important;
 }
 .parties-view .parties-background .uikit-background-switcher{
-  content: url(https://i.ibb.co/QcgNzKT/7f7ce09a2a883002643f442a7e7ddfaf.jpg) !important;
+  content: url(https://i.ibb.co/jvX234v/anh-nen-powerpoint-mau-xanh-ngoc-100600105.jpg) !important;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
   filter:blur(10px);
   width: auto !important;
@@ -442,7 +442,7 @@ lol-regalia-banner-v2-element{
 
 /* lol-uikit-dialog-frame::part(.lol-uikit-dialog-frame){
   border: 2px solid transparent !important;
-  border-image: linear-gradient(to top, red 0, green 5px, blue 100%) 1 stretch !important;
+  border-image: linear-gradient(to top, red 0, green 185px, blue 200%) 1 stretch !important;
 } */
 
 :host .lol-uikit-dialog-frame.top .lol-uikit-dialog-frame-sub-border::before, :host .lol-uikit-dialog-frame.bottom .lol-uikit-dialog-frame-sub-border::before{
@@ -469,7 +469,7 @@ lol-regalia-banner-v2-element{
   height: 100%;
   /* filter: hue-rotate(-150deg); */
   mix-blend-mode: hue;
-  background-color:rgb(101, 25, 224, 0.6);
+  background-color:rgb(101, 185, 200, 0.6);
   z-index: 1;
 }
 
@@ -522,7 +522,7 @@ lol-regalia-banner-v2-element{
   height: 100%;
   /* filter: hue-rotate(-150deg); */
   mix-blend-mode: hue;
-  background-color:rgb(101, 25, 224, 0.8);
+  background-color:rgb(101, 185, 200, 0.8);
   z-index: -1;
 }
 
@@ -545,7 +545,7 @@ hr{
 
 
 ::-webkit-scrollbar-thumb{
-  background-color: #771dee !important;
+  background-color: #1deec1 !important;
 }
 
 .recipe-help-button{
@@ -681,7 +681,7 @@ lol-uikit-tooltip-root{
 }
 
 .chat-header{
-  border-bottom: thin solid #6615c4 !important;
+  border-bottom: thin solid #15c4ad !important;
 }
 
 lol-social-chat-input .chat-input{
@@ -710,7 +710,7 @@ lol-social-chat-input .chat-input{
 }
 
 .heading{
-  border-bottom: thin solid #6615c4 !important;
+  border-bottom: thin solid #15c4ad !important;
 }
 
 .dialog-frame{
@@ -957,7 +957,7 @@ lol-social-availability-hitbox .availability-icon.open-party{
 }
 
 .mission-button .count-badge{
-  background-color: #BB86FF !important;
+  background-color: #86FFF5 !important;
 }
 
 
@@ -970,28 +970,28 @@ lol-social-availability-hitbox .availability-icon.open-party{
 }
 
 .loot-item-visual .shard-overlay{
-  background: #BB86FF !important;
+  background: #86FFF5 !important;
 }
 
 .social-count-badge{
-  background-color: #BB86FF !important;
+  background-color: #86FFF5 !important;
 }
 lol-social-friend-requests .friend-requests-header{
-  color: #BB86FF !important;
+  color: #86FFF5 !important;
 }
 
 .chat-bubble .my-bubble{
-  background-color: #BB86FF !important;
+  background-color: #86FFF5 !important;
 }
 
 lol-social-chat-window .conversation.unread .conversation-subtitle{
-  color: #BB86FF !important;
+  color: #86FFF5 !important;
 }
 
 lol-social-chat-window .conversation.active::before{
-  background-color: #BB86FF !important;
+  background-color: #86FFF5 !important;
 }
 
 lol-social-roster .more-unread .more-unread-bar{
-  background-color: #BB86FF !important;
+  background-color: #86FFF5 !important;
 }
